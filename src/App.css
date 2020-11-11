@@ -1,0 +1,43 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-body {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  padding: 40px 64px;
+}
+
+.App-body-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("./AIA_logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.App-row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
